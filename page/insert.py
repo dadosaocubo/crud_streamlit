@@ -1,9 +1,11 @@
+# carregando as bibliotecas
 import streamlit as st
+# carregando as funções em outros arquivos .py
 import controller.cliente as cliente
 
 
-def incluir():
-    st.title('Incluir Dados')
+def inserir():
+    st.title('Inserir Dados')
     profissoes = ['Analista de Dados', 'Engenheiro de Dados', 'Cientista de Dados']
 
     with st.form(key='insert'):

@@ -1,7 +1,10 @@
+# carregando as bibliotecas
 import streamlit as st
+# carregando as funções em outros arquivos .py
 import controller.cliente as cliente
-import pandas as pd
 
+
+# função para a página de deletar dados
 def deletar():
     if "dele" not in st.session_state:
         st.session_state.dele = False

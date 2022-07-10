@@ -1,7 +1,9 @@
+# carregando as bibliotecas
 import streamlit as st
+# carregando as funções em outros arquivos .py
 import controller.cliente as cliente
 
-
+# função para a página de consultar dados
 def consultar():
 
     st.title('Consultar Dados')

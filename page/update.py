@@ -1,6 +1,10 @@
+# carregando as bibliotecas
 import streamlit as st
+# carregando as funções em outros arquivos .py
 import controller.cliente as cliente
 
+
+# função para a página de alterar dados
 def alterar():
     if "upda" not in st.session_state:
         st.session_state.upda = False
